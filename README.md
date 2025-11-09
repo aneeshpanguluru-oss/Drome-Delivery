@@ -5,12 +5,12 @@ A Python + MySQL project that finds the **shortest delivery route** for a drone 
 ---
 
 ## ✨ Features
-- Finds the **shortest route** between two coordinates using **BFS (Breadth-First Search)**  
-- Supports **diagonal movement** with **√2 ≈ 1.414** distance factor  
-- Calculates **total delivery cost** based on distance  
-- Automatically stores results in **MySQL** database  
-- Separates **successful** and **failed** deliveries  
-- Uses **NumPy** for grid creation and data handling  
+- Finds the **shortest route** between two coordinates using **Breadth-First Search (BFS)**
+- Supports **diagonal movement** (distance √2 ≈ 1.414)
+- Calculates **total delivery cost** based on user-defined cost per unit distance
+- Stores all results automatically in **MySQL**
+- Separates **successful** and **failed** deliveries
+- Uses **NumPy** for efficient grid handling
 
 ---
 
@@ -26,8 +26,7 @@ A Python + MySQL project that finds the **shortest delivery route** for a drone 
 
 ## ⚙️ Setup Instructions
 
-### 1️⃣ Clone the repository
+### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/aneeshpanguluru-oss/Drone-Delivery.git
 cd Drone-Delivery
-
